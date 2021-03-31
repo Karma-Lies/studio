@@ -7,10 +7,13 @@
 
 	<Counter />
 
-	<p>Visit <a class="text-blue-600 underline" href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.</p>
+	<p>
+		Visit <a class="text-blue-600 underline" href="https://svelte.dev">svelte.dev</a> to learn how to
+		build Svelte apps.
+	</p>
 </main>
 
-<style lang="scss">
+<style lang="postcss">
 	main {
 		@apply text-center;
 		@apply p-4;
