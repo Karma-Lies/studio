@@ -18,7 +18,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				mirage: ['Solide\\ Mirage_Etroit', 'Helvetica', 'sans-serif'],
+				mirage: ['Solide\\ Mirage', 'Helvetica', 'sans-serif'],
 			},
 		},
 	},
