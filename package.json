@@ -6,7 +6,8 @@
 		"build": "svelte-kit build",
 		"start": "svelte-kit start",
 		"lint": "prettier --check . && eslint --ignore-path .gitignore .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"prepare": "husky install"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "next",
@@ -38,11 +39,5 @@
 	},
 	"dependencies": {
 		"svelte-marquee-text-widget": "^1.1.0"
-	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "yarn lint && yarn format",
-			"pre-push": "yarn lint && yarn format"
-		}
 	}
 }

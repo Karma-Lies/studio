@@ -38,8 +38,8 @@
 		class:text-gray-900={marqueePause}
 		class:bg-yellow-50={marqueePause}
 		class:ring-yellow-400={marqueePause}
-		on:mouseenter={(e) => (marqueePause = true)}
-		on:mouseleave={(e) => (marqueePause = false)}
+		on:mouseenter={() => (marqueePause = true)}
+		on:mouseleave={() => (marqueePause = false)}
 	>
 		<MarqueeTextWidget duration={9} repeat={4} paused={marqueePause}>
 			{#each topic as attribute}

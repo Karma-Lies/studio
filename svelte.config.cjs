@@ -1,12 +1,12 @@
-const { mdsvex } = require("mdsvex");
-const mdsvexConfig = require("./mdsvex.config.cjs");
+const { mdsvex } = require('mdsvex');
+const mdsvexConfig = require('./mdsvex.config.cjs');
 const sveltePreprocess = require('svelte-preprocess');
 const node = require('@sveltejs/adapter-node');
 const pkg = require('./package.json');
 
 /** @type {import('@sveltejs/kit').Config} */
 module.exports = {
-	extensions: [".svelte", ...mdsvexConfig.extensions],
+	extensions: ['.svelte', ...mdsvexConfig.extensions],
 	// Consult https://github.com/sveltejs/svelte-preprocess
 	// for more information about preprocessors
 	preprocess: [
