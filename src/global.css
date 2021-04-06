@@ -1,4 +1,6 @@
 /* Write your global styles here, in PostCSS syntax */
+@import '../static/fonts/Solide-Mirage/font.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

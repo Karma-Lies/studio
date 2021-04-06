@@ -15,14 +15,14 @@
 </script>
 
 <header>
-	<nav class="w-full space-x-2 mx-auto font-semibold">
+	<nav class="w-full space-x-2 mx-auto font-mono font-semibold">
 		<a href=".">home</a>
 		<a href="example-markdown">blog</a>
-		<h1 class="text-5xl inline">Karma Lies</h1>
+		<h1 class="text-9xl inline font-mirage">Karma Lies</h1>
 		<span>an unorthodox digital agency</span>
 	</nav>
 
-	<ul class="text-gray-100 bg-black py-1 italic">
+	<ul class="text-gray-100 bg-black py-1">
 		<MarqueeTextWidget repeat={4}>
 			{#each topic as attribute}
 				<li class="inline mx-2 font-mono font-bold text-xl">

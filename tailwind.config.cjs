@@ -16,7 +16,11 @@ module.exports = {
 		},
 	},
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				mirage: ['Solide\\ Mirage_Etroit', 'Helvetica', 'sans-serif'],
+			},
+		},
 	},
 	variants: {
 		extend: {},
