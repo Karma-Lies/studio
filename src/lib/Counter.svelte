@@ -10,7 +10,7 @@
 	Clicks: {count}
 </button>
 
-<style lang="scss">
+<style lang="postcss">
 	button {
 		font-family: inherit;
 		font-size: inherit;

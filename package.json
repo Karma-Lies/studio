@@ -34,5 +34,8 @@
 	"type": "module",
 	"engines": {
 		"node": ">= 12.17.0"
+	},
+	"dependencies": {
+		"svelte-marquee-text-widget": "^1.1.0"
 	}
 }
