@@ -26,7 +26,7 @@
 	];
 </script>
 
-<div class="min-h-screen flex flex-col">
+<div class="min-h-screen flex flex-col bg-purple-300">
 	<!-- <div class="absolute flex left-0 right-0 top-0 z-0 filter blur-3xl">
 		<div class="w-1/2">
 			<Blob_1 />
@@ -35,7 +35,6 @@
 			<Blob_3 />
 		</div>
 	</div> -->
-
 	<header class="relative z-10">
 		<nav class="w-full space-x-2 mx-auto font-mono font-semibold">
 			<a class="filter transition-all duration-500" class:blur-3xl={marqueePause} href=".">home</a>
@@ -56,7 +55,7 @@
 			on:mouseenter={() => (marqueePause = true)}
 			on:mouseleave={() => (marqueePause = false)}
 		>
-			<MarqueeTextWidget duration={9} repeat={4} paused={marqueePause} class="mx-4">
+			<MarqueeTextWidget duration={9} repeat={4} class="mx-4">
 				{#each topic as attribute}
 					<li
 						class="inline mx-1 font-bold tracking-tight font-mono hover:text-indigo-600 hover:px-4 hover:bg-gray-100 rounded-sm transition-all duration-400 ease-in-out cursor-help"
