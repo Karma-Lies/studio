@@ -40,7 +40,7 @@
 			<a class="filter transition-all duration-700" class:blur-3xl={marqueePause} href="/">secret</a
 			>
 			<h1 class="sr-only">{company}</h1>
-			<h1 class="text-8xl inline font-mirage">{brand}</h1>
+			<h1 class="md:text-8xl text-4xl inline font-mirage">{brand}</h1>
 			<span class="filter transition-all duration-1000" class:blur-3xl={marqueePause}
 				>an unorthodox digital agency</span
 			>
