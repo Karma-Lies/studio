@@ -1,6 +1,6 @@
 <script>
 	import '../global.css';
-	import MarqueeTextWidget from 'svelte-marquee-text-widget';
+	import Marquee from 'svelte-marquee-text-widget';
 	import { vowelIndexes, wordfucker } from '../lib/random/strings.js';
 	// import Blob_1 from '../svg/blob_1.svelte';
 	// import Blob_3 from '../svg/blob_3.svelte';
@@ -14,19 +14,18 @@
 	// Marquee configuration
 	let marqueePause = false;
 	const topic = [
-		'brand awareness',
-		'digital marketing',
-		'product launches',
-		'creative imagery',
-		'experience design',
-		'music videos',
+		'brand consciousness',
+		'information era marketing',
+		'product powering',
+		'imaginative imagery',
+		'unique experiences',
+		'audiovisual prowess',
 		'web presence',
-		'social campaigns',
-		'taste curated',
+		'social network symbiosis',
 	];
 </script>
 
-<div class="min-h-screen flex flex-col bg-purple-300">
+<div class="min-h-screen flex flex-col bg-brand">
 	<!-- <div class="absolute flex left-0 right-0 top-0 z-0 filter blur-3xl">
 		<div class="w-1/2">
 			<Blob_1 />
@@ -55,7 +54,7 @@
 			on:mouseenter={() => (marqueePause = true)}
 			on:mouseleave={() => (marqueePause = false)}
 		>
-			<MarqueeTextWidget duration={9} repeat={4} class="mx-4">
+			<Marquee duration={9} repeat={4} class="mx-4" paused={marqueePause}>
 				{#each topic as attribute}
 					<li
 						class="inline mx-1 font-bold tracking-tight font-mono hover:text-indigo-600 hover:px-4 hover:bg-gray-100 rounded-sm transition-all duration-400 ease-in-out cursor-help"
@@ -64,7 +63,7 @@
 						{attribute}
 					</li>
 				{/each}
-			</MarqueeTextWidget>
+			</Marquee>
 		</ul>
 	</header>
 	<main class="w-full flex-1 flex">

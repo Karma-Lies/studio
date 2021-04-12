@@ -1,6 +1,7 @@
 const { tailwindExtractor } = require('tailwindcss/lib/lib/purgeUnusedStyles');
 
 module.exports = {
+	mode: 'jit',
 	purge: {
 		content: ['./src/**/*.{html,js,svelte,ts}'],
 		options: {
@@ -18,14 +19,12 @@ module.exports = {
 	},
 	theme: {
 		extend: {
+			backgroundColor: {
+				brand: '#e1e1e1',
+			},
 			fontFamily: {
 				mirage: ['Solide\\ Mirage', 'Helvetica', 'sans-serif'],
 			},
-		},
-	},
-	variants: {
-		extend: {
-			padding: ['hover'],
 		},
 	},
 	plugins: [],
