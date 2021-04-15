@@ -16,7 +16,7 @@
 	const topic = [
 		'brand consciousness',
 		'information era marketing',
-		'product powering',
+		'powering products',
 		'imaginative imagery',
 		'unique experiences',
 		'audiovisual prowess',
