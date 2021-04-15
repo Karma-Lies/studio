@@ -89,9 +89,9 @@
     toml "^3.0.0"
 
 "@sveltejs/kit@next":
-  version "1.0.0-next.71"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.71.tgz#7902a0bfaebf5968c9e99a194822666be50c418b"
-  integrity sha512-9oZEKtuFpmJanL0u7oJPWIoC4kWMtNSuN1SN7xKo+g54xI6JcsoH2J15OkTU89Hsd9Ctp4/OTh9j6/vgq9J7gw==
+  version "1.0.0-next.75"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.75.tgz#0984d54c3d2cf48589bb3e2fc99c69791af20948"
+  integrity sha512-DbxEptDY5+sYBsdwdKz62AgbXSRAuKyGkE5yrR8ZchRDluCiZG2fSo5qZDSEPqDpdFEuGIubdpXYuQgVxLL9Gg==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.5"
     cheap-watch "^1.0.3"
