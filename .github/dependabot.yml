@@ -1,0 +1,31 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "11:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@sveltejs/kit"
+    versions:
+    - 1.0.0-next.72
+    - 1.0.0-next.74
+    - 1.0.0-next.75
+    - 1.0.0-next.85
+    - 1.0.0-next.86
+    - 1.0.0-next.89
+    - 1.0.0-next.90
+  - dependency-name: "@sveltejs/adapter-netlify"
+    versions:
+    - 1.0.0-next.9
+  - dependency-name: cssnano
+    versions:
+    - 5.0.0
+    - 5.0.1
+  - dependency-name: sass
+    versions:
+    - 1.32.11
+  - dependency-name: svelte-preprocess
+    versions:
+    - 4.7.2
