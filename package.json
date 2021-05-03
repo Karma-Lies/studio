@@ -31,7 +31,7 @@
 		"svelte": "^3.37.0",
 		"svelte-preprocess": "^4.7.1",
 		"tailwindcss": "^2.1.2",
-		"vite": "^2.2.1"
+		"vite": "^2.2.4"
 	},
 	"type": "module",
 	"engines": {
