@@ -27,7 +27,7 @@
 		"rehype-slug": "^4.0.1",
 		"remark-abbr": "^1.4.1",
 		"remark-github": "^10.0.1",
-		"sass": "^1.33.0",
+		"sass": "^1.35.2",
 		"svelte": "^3.37.0",
 		"svelte-preprocess": "^4.7.3",
 		"tailwindcss": "^2.1.2",
