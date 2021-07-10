@@ -1333,6 +1333,11 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
+lilconfig@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-2.0.3.tgz#68f3005e921dafbd2a2afb48379986aa6d2579fd"
+  integrity sha512-EHKqr/+ZvdKCifpNrJCKxBTgk5XupZA3y/aCPY9mxfgBzmgh93Mt/WqjjQ38oMxXuvDokaKiM3lAgvSH2sjtHg==
+
 lines-and-columns@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
@@ -1404,10 +1409,10 @@ mdn-data@2.0.14:
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.14.tgz#7113fc4281917d63ce29b43446f701e68c25ba50"
   integrity sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow==
 
-mdsvex@^0.9.6:
-  version "0.9.6"
-  resolved "https://registry.yarnpkg.com/mdsvex/-/mdsvex-0.9.6.tgz#70d75c68d986e0e7c005f290e951a1e317a05eec"
-  integrity sha512-AMdB7TNC40aE/XZuVhqFLWJGufUHK64/Yre88CEC9jktINp+vmYs1YsmUUM7ophl2Y+6qZwcYE4DPe1PPHVNjA==
+mdsvex@^0.9.8:
+  version "0.9.8"
+  resolved "https://registry.yarnpkg.com/mdsvex/-/mdsvex-0.9.8.tgz#f430988b86c4d9080381de2fbe54326c046487bc"
+  integrity sha512-5QvThjRKoKkGH00qdHxLZ5ROd80RgGiJvM2B9opeFreaiGFTLoKKFUgEBCslLrwM24cVGJLmIM3rR83OFDf3tQ==
   dependencies:
     "@types/unist" "^2.0.3"
     prism-svelte "^0.4.7"
@@ -1646,13 +1651,14 @@ postcss-js@^3.0.3:
     camelcase-css "^2.0.1"
     postcss "^8.1.6"
 
-postcss-load-config@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-load-config/-/postcss-load-config-3.0.1.tgz#d214bf9cfec1608ffaf0f4161b3ba20664ab64b9"
-  integrity sha512-/pDHe30UYZUD11IeG8GWx9lNtu1ToyTsZHnyy45B4Mrwr/Kb6NgYl7k753+05CJNKnjbwh4975amoPJ+TEjHNQ==
+postcss-load-config@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/postcss-load-config/-/postcss-load-config-3.1.0.tgz#d39c47091c4aec37f50272373a6a648ef5e97829"
+  integrity sha512-ipM8Ds01ZUophjDTQYSVP70slFSYg3T0/zyfII5vzhN6V57YSxMgG5syXuwi5VtS8wSf3iL30v0uBdoIVx4Q0g==
   dependencies:
-    cosmiconfig "^7.0.0"
     import-cwd "^3.0.0"
+    lilconfig "^2.0.3"
+    yaml "^1.10.2"
 
 postcss-merge-longhand@^5.0.1:
   version "5.0.1"
@@ -1876,10 +1882,10 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettier-plugin-svelte@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-svelte/-/prettier-plugin-svelte-2.2.0.tgz#4bd94992fa5b76413a8a5556f90b128c4fdaf7a6"
-  integrity sha512-Xdmqgr71tAuMqqzNCK52/v94g/Yv7V7lz+nmbO9NEA+9ol15VV3uUHOfydMNOo3SWvFaVlBcp947ebEaMWqVfQ==
+prettier-plugin-svelte@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-svelte/-/prettier-plugin-svelte-2.3.1.tgz#926184a490549688dbea0a8d61c1b1ae20218368"
+  integrity sha512-F1/r6OYoBq8Zgurhs1MN25tdrhPw0JW5JjioPRqpxbYdmrZ3gY/DzHGs0B6zwd4DLyRsfGB2gqhxUCbHt/D1fw==
 
 prettier@~2.2.1:
   version "2.2.1"
@@ -1981,10 +1987,10 @@ remark-abbr@^1.4.1:
   dependencies:
     unist-util-visit "^2.0.3"
 
-remark-github@^10.0.1:
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/remark-github/-/remark-github-10.0.1.tgz#d258d73fb6bf33a9d42e5a8f04931d684bec06cf"
-  integrity sha512-iPF467c+bs4vi+vFyDjZCLlKNmHbWF5uo6IIILsHMbbP3dEqsI+m40zMmxY978Z2dUdl6YKiyf07uZad9bFMmw==
+remark-github@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/remark-github/-/remark-github-10.1.0.tgz#1c2777c1d4082b56d7890af656a0a525e49cacfc"
+  integrity sha512-q0BTFb41N6/uXQVkxRwLRTFRfLFPYP+8li26Js5XC0GKritCSaxrftd+t+8sfN+1i9BtmJPUKoS7CZwtccj0Fg==
   dependencies:
     mdast-util-find-and-replace "^1.0.0"
     mdast-util-to-string "^1.0.0"
@@ -2193,10 +2199,10 @@ svelte-marquee-text-widget@^1.1.0:
   resolved "https://registry.yarnpkg.com/svelte-marquee-text-widget/-/svelte-marquee-text-widget-1.1.0.tgz#e8b86515c564e3c2f755a86ef7118bba6bde6c7c"
   integrity sha512-mBO3fBA++Xwn7P1VdgeH4OI+MrulxxNrGwdX7NVA1GU1ZCyrQUcb7AD8V3s6s2ZWW3cRXVhbBmgXW+aABYV9kA==
 
-svelte-preprocess@^4.7.3:
-  version "4.7.3"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.7.3.tgz#454fa059c2400b15e7a3caeca18993cff9df0e96"
-  integrity sha512-Zx1/xLeGOIBlZMGPRCaXtlMe4ZA0faato5Dc3CosEqwu75MIEPuOstdkH6cy+RYTUYynoxzNaDxkPX4DbrPwRA==
+svelte-preprocess@^4.7.4:
+  version "4.7.4"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.7.4.tgz#e4d5208ab25c2aaaf19e837f7d7bbf7930e61d2b"
+  integrity sha512-mDAmaltQl6e5zU2VEtoWEf7eLTfuOTGr9zt+BpA3AGHo8MIhKiNSPE9OLTCTOMgj0vj/uL9QBbaNmpG4G1CgIA==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
@@ -2426,7 +2432,7 @@ yallist@^4.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-yaml@^1.10.0:
+yaml@^1.10.0, yaml@^1.10.2:
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
