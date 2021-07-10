@@ -1,7 +1,9 @@
 <script>
 	import '../global.css';
 	import Marquee from 'svelte-marquee-text-widget';
-	import { vowelIndexes, wordfucker } from '../lib/random/strings.js';
+
+	import { vowelIndexes, wordfucker } from '$lib/random/strings.js';
+
 	// import Blob_1 from '../svg/blob_1.svelte';
 	// import Blob_3 from '../svg/blob_3.svelte';
 
