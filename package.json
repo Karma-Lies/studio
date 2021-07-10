@@ -30,7 +30,7 @@
 		"sass": "^1.33.0",
 		"svelte": "^3.37.0",
 		"svelte-preprocess": "^4.7.4",
-		"tailwindcss": "^2.1.2",
+		"tailwindcss": "^2.2.4",
 		"vite": "^2.2.1"
 	},
 	"type": "module",
