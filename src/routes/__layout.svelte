@@ -1,11 +1,11 @@
 <script>
 	import '../global.css';
-	import Marquee from 'svelte-marquee-text-widget';
-
 	import { vowelIndexes, wordfucker } from '$lib/random/strings.js';
 
-	// import Blob_1 from '../svg/blob_1.svelte';
-	// import Blob_3 from '../svg/blob_3.svelte';
+	// Components
+	import Marquee from 'svelte-marquee-text-widget';
+	import Footer from '$lib/components/03_modules/Footer.svelte';
+	import CursorFriend from './../lib/components/01_atoms/CursorFriend.svelte';
 
 	// Funky branding in the header
 	const company = 'Karma Lies';
@@ -14,53 +14,42 @@
 	setInterval(() => (brand = wordfucker(company, brand, vowels)), 150);
 
 	// Marquee configuration
-	let marqueePause = false;
 	const topic = [
-		'brand consciousness',
-		'information era marketing',
-		'powering products',
-		'imaginative imagery',
-		'unique experiences',
-		'audiovisual prowess',
+		'branding',
+		'progressive marketing',
+		'product design',
+		'visual identity',
 		'web presence',
-		'social network symbiosis',
+		'experimentation',
+		'photography',
+		'graphic design',
 	];
 </script>
 
-<div class="min-h-screen flex flex-col bg-brand">
-	<!-- <div class="absolute flex left-0 right-0 top-0 z-0 filter blur-3xl">
-		<div class="w-1/2">
-			<Blob_1 />
-		</div>
-		<div class="w-4/6 transform rotate-45 translate-y-2">
-			<Blob_3 />
-		</div>
-	</div> -->
+<div class="min-h-screen flex flex-col bg-platinum text-rich-black selection:bg-sunglow">
+	<!-- Site branding/nav -->
 	<header class="relative z-10">
-		<nav class="w-full space-x-2 mx-auto font-mono font-semibold">
-			<a class="filter transition-all duration-500" class:blur-3xl={marqueePause} href=".">home</a>
-			<a class="filter transition-all duration-700" class:blur-3xl={marqueePause} href="/">secret</a
+		<nav aria-label="Primary" class="w-full mx-auto font-mono font-semibold xl:px-4 md:px-2 px-0.5">
+			<button
+				class="text-lg font-bold bonk hover:bg-sunglow focus:bg-sunglow rounded-sm transition-colors"
+				>menu</button
 			>
-			<h1 class="sr-only">{company}</h1>
-			<h1 class="md:text-8xl text-4xl inline font-mirage">{brand}</h1>
-			<span class="filter transition-all duration-1000" class:blur-3xl={marqueePause}
-				>an unorthodox digital agency</span
+			<h1
+				class="md:text-8xl text-4xl inline-block font-mirage mx-2 hover:translate-y-1.5 hover:scale-[.99] transition-transform"
 			>
+				<a href="/" aria-label="Click to visit the home page.">{brand}</a>
+			</h1>
+			<span>an unorthodox digital agency</span>
 		</nav>
 
+		<!-- Marquee -->
 		<ul
-			class="text-gray-100 bg-black py-1 transition-all duration-400 ease-in-out ring-transparent ring-2"
-			class:text-gray-900={marqueePause}
-			class:bg-yellow-50={marqueePause}
-			class:ring-yellow-400={marqueePause}
-			on:mouseenter={() => (marqueePause = true)}
-			on:mouseleave={() => (marqueePause = false)}
+			class="text-gray-100 bg-rich-black selection:text-rich-black py-3 transition-all duration-400 ease-in-out ring-transparent ring-2"
 		>
-			<Marquee duration={9} repeat={4} class="mx-4" paused={marqueePause}>
+			<Marquee duration={16} repeat={4} class="mx-4">
 				{#each topic as attribute}
 					<li
-						class="inline mx-1 font-bold tracking-tight font-mono hover:text-indigo-600 hover:px-4 hover:bg-gray-100 rounded-sm transition-all duration-400 ease-in-out cursor-help"
-						class:italic={marqueePause}
+						class="inline mx-6 font-bold tracking-tight font-mono rounded-sm transition-all duration-400 ease-in-out cursor-default"
 					>
 						{attribute}
 					</li>
@@ -68,7 +57,21 @@
 			</Marquee>
 		</ul>
 	</header>
-	<main class="w-full flex-1 flex">
+	<main id="main-content" class="w-full flex-1 flex">
 		<slot />
 	</main>
+	<Footer />
 </div>
+<CursorFriend />
+
+<style lang="postcss">
+	.bonk::after {
+		content: '';
+		@apply w-full h-1 mx-auto mt-1 block;
+		@apply bg-vermilion rounded-sm;
+		@apply scale-x-0 translate-y-1;
+	}
+	.bonk:hover::after {
+		@apply scale-x-100 translate-y-0 duration-200 transition-transform;
+	}
+</style>
