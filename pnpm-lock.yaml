@@ -17,7 +17,7 @@ specifiers:
   rehype-autolink-headings: 6.1.0
   rehype-slug: 5.0.0
   remark-abbr: 1.4.1
-  remark-github: 11.2.1
+  remark-github: 11.2.2
   sass: 1.43.4
   svelte: 3.44.0
   svelte-marquee-text-widget: 1.1.0
@@ -41,7 +41,7 @@ devDependencies:
   rehype-autolink-headings: 6.1.0
   rehype-slug: 5.0.0
   remark-abbr: 1.4.1
-  remark-github: 11.2.1
+  remark-github: 11.2.2
   sass: 1.43.4
   svelte: 3.44.0
   svelte-marquee-text-widget: 1.1.0
@@ -2118,8 +2118,8 @@ packages:
       unist-util-visit: 2.0.3
     dev: true
 
-  /remark-github/11.2.1:
-    resolution: {integrity: sha512-NJzXTsA6DhIc1mf+xivJo7k/IotFt65C1ogTsWHTwM5D/HzfCaF3sUonx6OZEP+6lfgwqLxkOs8z7YsQd7FttA==}
+  /remark-github/11.2.2:
+    resolution: {integrity: sha512-uO6q6NOszPFC/dMS6R0ExuMCk8XNuTptgw+eBfjsQiseyiDnUtUKBajN2fHtRo4wDtcjX2UTmZimmKGiYzZq+w==}
     dependencies:
       '@types/mdast': 3.0.10
       mdast-util-find-and-replace: 2.1.0
