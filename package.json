@@ -27,7 +27,7 @@
 		"rehype-autolink-headings": "6.1.0",
 		"rehype-slug": "5.0.0",
 		"remark-abbr": "1.4.1",
-		"remark-github": "11.2.1",
+		"remark-github": "11.2.2",
 		"sass": "1.43.4",
 		"svelte": "3.44.0",
 		"svelte-marquee-text-widget": "1.1.0",
