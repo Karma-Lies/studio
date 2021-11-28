@@ -36,23 +36,33 @@
 			></button
 		>
 		<li>
-			<a sveltekit:prefetch href="/photography" class="hover:bg-vermilion">Photography </a>
+			<a sveltekit:prefetch href="/photography" class="hover:bg-vermilion" on:click={close}
+				>Photography
+			</a>
 		</li>
 		<li>
-			<a sveltekit:prefetch href="/design" class="hover:bg-cerulean-frost">Graphic Design</a>
-		</li>
-		<li>
-			<a sveltekit:prefetch href="/websites" class="hover:bg-sunglow hover:text-rich-black"
-				>Websites</a
+			<a sveltekit:prefetch href="/design" class="hover:bg-cerulean-frost" on:click={close}
+				>Graphic Design</a
 			>
 		</li>
 		<li>
-			<a sveltekit:prefetch href="/work-together" class="hover:bg-platinum hover:text-rich-black"
-				>Let's Work Together</a
+			<a
+				sveltekit:prefetch
+				href="/websites"
+				class="hover:bg-sunglow hover:text-rich-black"
+				on:click={close}>Websites</a
 			>
 		</li>
 		<li>
-			<a sveltekit:prefetch href="/contact" class="hover:bg-vermilion">Contact</a>
+			<a
+				sveltekit:prefetch
+				href="/work-together"
+				class="hover:bg-platinum hover:text-rich-black"
+				on:click={close}>Let's Work Together</a
+			>
+		</li>
+		<li>
+			<a sveltekit:prefetch href="/contact" class="hover:bg-vermilion" on:click={close}>Contact</a>
 		</li>
 	</ul>
 </nav>
