@@ -2,12 +2,15 @@
 	<title>Karma Lies</title>
 	<meta name="description" content="An unorthodox digital brand agency" />
 	<meta property="og:title" content="Karma Lies" />
-	<meta property="og:description" content="An unorthodox digital brand agency" />
+	<meta
+		property="og:description"
+		content="An unorthodox digital brand agency in Northwest Indiana"
+	/>
 </svelte:head>
 
 <section class="m-auto h-full relative">
 	<h1
-		class="relative leading-loose tracking-tighter font-mirage z-10 text-center text-black col-start-1 row-start-1 row-span-auto col-span-12 font-thin"
+		class="relative leading-loose tracking-tighter font-mirage z-10 text-center text-rich-black col-start-1 row-start-1 row-span-auto col-span-12 font-thin"
 	>
 		Work
 	</h1>

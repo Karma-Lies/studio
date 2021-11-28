@@ -1,4 +1,5 @@
 <script>
+	import Navigation from './../lib/components/02_molecules/Navigation.svelte';
 	import '../global.css';
 	import { vowelIndexes, wordfucker } from '$lib/random/strings.js';
 
@@ -24,15 +25,19 @@
 		'photography',
 		'graphic design',
 	];
+
+	let menuOpen = false;
 </script>
 
-<div class="min-h-screen flex flex-col bg-platinum text-rich-black selection:bg-sunglow">
+<div
+	class="min-h-screen relative flex flex-col text-rich-black selection:bg-sunglow max-w-[1696px] mx-auto"
+>
 	<!-- Site branding/nav -->
 	<header class="relative z-10">
 		<nav aria-label="Primary" class="w-full mx-auto font-mono font-semibold xl:px-4 md:px-2 px-0.5">
 			<button
 				class="text-lg font-bold bonk hover:bg-sunglow focus:bg-sunglow rounded-sm transition-colors"
-				>menu</button
+				on:click={() => (menuOpen = true)}>menu</button
 			>
 			<h1
 				class="md:text-8xl text-4xl inline-block font-mirage mx-2 hover:translate-y-1.5 hover:scale-[.99] transition-transform"
@@ -57,6 +62,7 @@
 			</Marquee>
 		</ul>
 	</header>
+	<Navigation {menuOpen} on:close={() => (menuOpen = false)} />
 	<main id="main-content" class="flex-1">
 		<slot />
 	</main>
