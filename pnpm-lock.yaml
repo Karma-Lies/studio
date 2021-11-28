@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@sveltejs/adapter-static': 1.0.0-next.21
-  '@sveltejs/kit': 1.0.0-next.192
+  '@sveltejs/kit': 1.0.0-next.201
   autoprefixer: 10.4.0
   cssnano: 5.0.8
   eslint: 8.1.0
@@ -26,7 +26,7 @@ specifiers:
 
 devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.21
-  '@sveltejs/kit': 1.0.0-next.192_sass@1.43.4+svelte@3.44.0
+  '@sveltejs/kit': 1.0.0-next.201_sass@1.43.4+svelte@3.44.0
   autoprefixer: 10.4.0_postcss@8.3.11
   cssnano: 5.0.8_postcss@8.3.11
   eslint: 8.1.0
@@ -136,8 +136,8 @@ packages:
     resolution: {integrity: sha512-B4+QoUVAaANKx+mHntG8SqF45zbj3Ct4Akg/cGauo6COyfKZRhO5OsMa+wPuT2TKJBZC4eEDK0p+p9nyQBkxKQ==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.192_sass@1.43.4+svelte@3.44.0:
-    resolution: {integrity: sha512-8LyPeEwxzMFMMr05I27j77qgvBdw92eVCH+W8+nW8kA7dkfA1e38GZXEb3qshd0Jez2Cng8MAzVMoETzGaQcng==}
+  /@sveltejs/kit/1.0.0-next.201_sass@1.43.4+svelte@3.44.0:
+    resolution: {integrity: sha512-WcYexOEPWgDWOk0oOteTU5QwWykdIcOFJig+akeHqwE/jVtPURLZFtTNx0ymUWXN4S+dUXf60KF6HEMv74FHpA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1634,10 +1634,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /picocolors/0.2.1:
-    resolution: {integrity: sha512-cMlDqaLEqfSaW8Z7N5Jw+lyIW869EzT73/F5lhtY9cLGoVxSXznfgfXMO0Z5K0o0Q2TkTXq+0KFsdnSe3jDViA==}
-    dev: true
-
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
@@ -1994,15 +1990,6 @@ packages:
     dependencies:
       nanoid: 3.1.30
       picocolors: 1.0.0
-      source-map-js: 0.6.2
-    dev: true
-
-  /postcss/8.3.9:
-    resolution: {integrity: sha512-f/ZFyAKh9Dnqytx5X62jgjhhzttjZS7hMsohcI7HEI5tjELX/HxCy3EFhsRxyzGvrzFF+82XPvCS8T9TFleVJw==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.1.30
-      picocolors: 0.2.1
       source-map-js: 0.6.2
     dev: true
 
@@ -2620,7 +2607,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.13.12
-      postcss: 8.3.9
+      postcss: 8.3.11
       resolve: 1.20.0
       rollup: 2.58.3
       sass: 1.43.4
