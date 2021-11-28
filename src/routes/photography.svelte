@@ -1,10 +1,10 @@
 <svelte:head>
-	<title>Contact - Karma Lies</title>
+	<title>Photography - Karma Lies</title>
 	<meta name="description" content="An unorthodox digital brand agency" />
-	<meta property="og:title" content="Contact - Karma Lies" />
+	<meta property="og:title" content="Photography - Karma Lies" />
 	<meta property="og:description" content="An unorthodox digital brand agency" />
 </svelte:head>
 
 <main>
-	<h1 class="text-5xl tracking-tighter">Contact</h1>
+	<h1 class="text-5xl tracking-tighter">Photography</h1>
 </main>
