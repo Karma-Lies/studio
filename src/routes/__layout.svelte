@@ -57,7 +57,7 @@
 			</Marquee>
 		</ul>
 	</header>
-	<main id="main-content" class="w-full flex-1 flex">
+	<main id="main-content" class="flex-1">
 		<slot />
 	</main>
 	<Footer />
