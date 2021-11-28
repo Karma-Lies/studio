@@ -30,7 +30,7 @@
 </script>
 
 <div
-	class="min-h-screen relative flex flex-col text-rich-black selection:bg-sunglow max-w-[1696px] mx-auto"
+	class="min-h-screen relative flex flex-col text-rich-black selection:bg-sunglow max-w-[1696px] mx-auto bg-platinum"
 >
 	<!-- Site branding/nav -->
 	<header class="relative z-10">
