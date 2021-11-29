@@ -15,7 +15,7 @@ specifiers:
   postcss: 8.4.1
   postcss-load-config: 3.1.0
   prettier: 2.5.0
-  prettier-plugin-svelte: 2.4.0
+  prettier-plugin-svelte: 2.5.0
   sass: 1.43.4
   svelte: 3.44.2
   svelte-marquee-text-widget: 1.1.0
@@ -37,7 +37,7 @@ devDependencies:
   postcss: 8.4.1
   postcss-load-config: 3.1.0
   prettier: 2.5.0
-  prettier-plugin-svelte: 2.4.0_prettier@2.5.0+svelte@3.44.2
+  prettier-plugin-svelte: 2.5.0_prettier@2.5.0+svelte@3.44.2
   sass: 1.43.4
   svelte: 3.44.2
   svelte-marquee-text-widget: 1.1.0
@@ -9131,8 +9131,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier-plugin-svelte/2.4.0_prettier@2.5.0+svelte@3.44.2:
-    resolution: {integrity: sha512-JwJ9bOz4XHLQtiLnX4mTSSDUdhu12WH8sTwy/XTDCSyPlah6IcV7NWeYBZscPEcceu2YnW8Y9sJCP40Z2UH9GA==}
+  /prettier-plugin-svelte/2.5.0_prettier@2.5.0+svelte@3.44.2:
+    resolution: {integrity: sha512-+iHY2uGChOngrgKielJUnqo74gIL/EO5oeWm8MftFWjEi213lq9QYTOwm1pv4lI1nA61tdgf80CF2i5zMcu1kw==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
