@@ -1,11 +1,9 @@
-import { mdsvex } from 'mdsvex';
-import mdsvexConfig from './mdsvex.config.cjs';
 import sveltePreprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 export default {
-	extensions: ['.svelte', ...mdsvexConfig.extensions],
+	extensions: ['.svelte'],
 
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
@@ -14,7 +12,6 @@ export default {
 	},
 
 	preprocess: [
-		mdsvex(mdsvexConfig),
 		sveltePreprocess({
 			postcss: true,
 		}),
