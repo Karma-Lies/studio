@@ -1,17 +1,17 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@sendgrid/mail': ^7.6.0
+  '@sendgrid/mail': 7.6.0
   '@sveltejs/adapter-static': 1.0.0-next.21
   '@sveltejs/kit': 1.0.0-next.201
   autoprefixer: 10.4.0
-  axios: ^0.24.0
+  axios: 0.24.0
   cssnano: 5.0.12
   eslint: 8.1.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-svelte3: 3.2.1
   husky: 7.0.4
-  netlify-cli: ^8.0.3
+  netlify-cli: 8.0.3
   postcss: 8.4.1
   postcss-load-config: 3.1.0
   prettier: 2.5.0
@@ -137,7 +137,7 @@ packages:
       '@babel/compat-data': 7.16.4
       '@babel/core': 7.16.0
       '@babel/helper-validator-option': 7.14.5
-      browserslist: 4.17.5
+      browserslist: 4.18.1
       semver: 6.3.0
     dev: true
 
@@ -3796,8 +3796,8 @@ packages:
   /caniuse-api/3.0.0:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
-      browserslist: 4.17.5
-      caniuse-lite: 1.0.30001274
+      browserslist: 4.18.1
+      caniuse-lite: 1.0.30001283
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
@@ -8728,7 +8728,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.17.5
+      browserslist: 4.18.1
       caniuse-api: 3.0.0
       colord: 2.9.1
       postcss: 8.4.1
@@ -8820,7 +8820,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.17.5
+      browserslist: 4.18.1
       caniuse-api: 3.0.0
       cssnano-utils: 2.0.1_postcss@8.4.1
       postcss: 8.4.1
@@ -8856,7 +8856,7 @@ packages:
       postcss: ^8.2.15
     dependencies:
       alphanum-sort: 1.0.2
-      browserslist: 4.17.5
+      browserslist: 4.18.1
       cssnano-utils: 2.0.1_postcss@8.4.1
       postcss: 8.4.1
       postcss-value-parser: 4.1.0
@@ -8951,7 +8951,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.17.5
+      browserslist: 4.18.1
       postcss: 8.4.1
       postcss-value-parser: 4.1.0
     dev: true
@@ -8995,7 +8995,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.17.5
+      browserslist: 4.18.1
       caniuse-api: 3.0.0
       postcss: 8.4.1
     dev: true
@@ -10213,7 +10213,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.17.5
+      browserslist: 4.18.1
       postcss: 8.4.1
       postcss-selector-parser: 6.0.6
     dev: true
@@ -11021,7 +11021,7 @@ packages:
   /wide-align/1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
     dev: true
 
   /widest-line/3.1.0:
