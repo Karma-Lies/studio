@@ -50,7 +50,7 @@ exports.handler = async (event) => {
 		to: 'tony@karmalies.studio',
 		from: 'tony@karmalies.studio', // Verified sender
 		subject: `${body.name} - submitted contact form`,
-		text: `${body.details}\n\n---\nname: ${body.name}\nemail: ${body.email}\nphone: ${body.phone}\nservices: ${body.servicesSelected}`,
+		text: `${body.details}\n\n---\nname: ${body.name}\nemail: ${body.email}\nphone: ${body.phone}\nservices: ${body.selectedServices}`,
 	};
 
 	try {
