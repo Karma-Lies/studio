@@ -1,4 +1,14 @@
+[dev]
+  autoLaunch = false
+
+[functions]
+  directory = "functions"
+
 [build]
-  command = "yarn build"
-  publish = "build/"
-  functions = "functions/"
+  command = "npm run build"
+  publish = "build"
+
+[[redirects]]
+  from = "*"
+  to = "/404"
+  status = 404

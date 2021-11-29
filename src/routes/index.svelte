@@ -10,7 +10,7 @@
 
 <section class="m-auto h-full relative">
 	<h1
-		class="relative leading-loose tracking-tighter font-mirage z-10 text-center text-rich-black col-start-1 row-start-1 row-span-auto col-span-12 font-thin"
+		class="relative leading-loose tracking-tighter font-mirage z-10 text-center text-rich-black col-start-1 row-start-1 row-span-auto col-span-12 font-thin mb-4"
 	>
 		Work
 	</h1>
@@ -18,7 +18,7 @@
 		<div
 			class="row-start-1 row-span-1 col-start-2 col-span-4 filter mix-blend-difference text-white bg-black flex flex-col"
 		>
-			<h2 class="uppercase text-7xl">Photography</h2>
+			<h2 class="uppercase text-5xl md:text-7xl">Photography</h2>
 			<p>exploring color, perspective, and hyper-realism</p>
 			<a
 				href="/photography"

@@ -1,12 +1,13 @@
 <script>
-	import Navigation from './../lib/components/02_molecules/Navigation.svelte';
 	import '../global.css';
 	import { vowelIndexes, wordfucker } from '$lib/random/strings.js';
 
 	// Components
 	import Marquee from 'svelte-marquee-text-widget';
 	import Footer from '$lib/components/03_modules/Footer.svelte';
-	import CursorFriend from './../lib/components/01_atoms/CursorFriend.svelte';
+	import CursorFriend from '$lib/components/01_atoms/CursorFriend.svelte';
+	import Navigation from '$lib/components/02_molecules/Navigation.svelte';
+	import InterestForm from '$lib/components/03_modules/InterestForm.svelte';
 
 	// Funky branding in the header
 	const company = 'Karma Lies';
@@ -66,6 +67,7 @@
 	<main id="main-content" class="flex-1">
 		<slot />
 	</main>
+	<InterestForm />
 	<Footer />
 </div>
 <CursorFriend />
