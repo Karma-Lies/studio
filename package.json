@@ -16,7 +16,7 @@
 		"@sveltejs/adapter-static": "1.0.0-next.21",
 		"@sveltejs/kit": "1.0.0-next.201",
 		"autoprefixer": "10.4.0",
-		"axios": "0.24.0",
+		"axios": "0.28.0",
 		"cssnano": "5.0.12",
 		"eslint": "8.3.0",
 		"eslint-config-prettier": "8.3.0",
